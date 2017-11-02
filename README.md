@@ -42,6 +42,7 @@ You can also use a configuration file instead (recommend), move to "~/shadowsock
     python server.py
 
 To run in the background:
+command: python server.py -c ~/shadowsocksr/shadowsocks/user-config.json -d start
 
     ./logrun.sh
 
